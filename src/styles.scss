@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* PrimeNG styles are now handled through providePrimeNG in app.config.ts */
+@import "primeicons/primeicons.css";
+
+/* Estilos globales */
+:root {
+  --font-family: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', var(--font-family);
+  background-color: var(--surface-ground);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.p-component {
+  font-family: 'Inter', var(--font-family);
+}
